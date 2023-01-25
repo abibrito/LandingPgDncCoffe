@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
 #fade, #modal{
     transition: .5s;
@@ -58,6 +59,7 @@
 }
 
 #modal-body button{
+    font-family: 'Raleway', sans-serif;
     background-color: #2A3342;
     opacity: 1;
     color: #F6F5FB;
@@ -66,6 +68,7 @@
     padding: 7px;
     margin: 80px auto;
 }
+
 #modal-body button:hover{
     transition: all ease 0.5s;
     opacity: 0.9;
@@ -75,6 +78,37 @@
     opacity: 0;
     pointer-events: none;
 }
+
 #modal.hide{
     top: 0;
+}
+
+/* id dos Botões nos Cards*/
+
+#btt1,#btt2,#btt3, #btt4 {
+    font-family: 'Raleway', sans-serif;
+    background-color: #2A3342;
+    visibility: hidden;
+    color: #F6F5FB;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 8px;
+    margin: 0px auto 10px;
+}
+
+#btt1:hover{
+    transition: all ease 0.5s;
+    opacity: 0.9;
+}
+#btt2:hover{
+    transition: all ease 0.5s;
+    opacity: 0.9;
+}
+#btt3:hover{
+    transition: all ease 0.5s;
+    opacity: 0.9;
+}
+#btt4:hover{
+    transition: all ease 0.5s;
+    opacity: 0.9;
 }
